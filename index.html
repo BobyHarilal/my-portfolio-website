@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boby Harilal | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <header>
+  <div class="logo">My Portfolio</div>
+  <nav class="navbar">
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+    <ul class="nav-links">
+      <li><a href="#" data-section="home">About me</a></li>
+      <li><a href="#" data-section="experience">Experience</a></li>
+      <li><a href="#" data-section="academic">Projects</a></li>
+      <li><a href="#" data-section="frontend">Frontend Designs</a></li>
+      <li><a href="#" data-section="contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+   <section id="home" class="content-section active">
+    <h1>Boby Harilal</h1>
+    <p>Frontend Developer | Tech Enthusiast</p>
+    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; margin-top: 2rem;">
+      <img src="image/WhatsApp Image 2025-05-13 at 14.01.47_f742acab.jpg" alt="Boby Harilal Photo" style="width: 200px; border-radius: 50%;">
+      <div>
+    <h2>About Me</h2>
+    
+<p>I am a Computer Science graduate actively seeking a web developer role. As a fresher, I bring a basic understanding in HTML, CSS, and JavaScript, combined with hands-on project experience in building user interfaces and web applications using Flask and Python. My passion lies in crafting responsive and visually engaging websites. I am eager to contribute to a dynamic team where I can grow, learn from real-world challenges, and create impactful user experiences.</p><br>
+ <!-- Download Resume Button -->
+  <p>My resume -><a href="resume.pdf" download class="download-btn">Download Resume</a><br><br></p>
+    <h3>Skills</h3>
+    <ul>
+      <li>HTML, CSS, JavaScript(Basic)</li>
+      <li>Python(Basic)</li>
+    </ul><br>
+    <h3>Education</h3>
+    <ul>
+      <li><strong>B.Tech in Computer Science and Engineering</strong> – Heera College of Engineering and Technology,Panavoor,Nedumangad (2021–2025)<br>CGPA: 6.72 (First Class)</li>
+      <li><strong>12th Standard (Bio-Maths)</strong> – Sree Gokulam Public School,Mamom,Attingal (Passed in 2021)<br>Percentage: 85.2%</li>
+      <li><strong>10th Standard</strong> – Sree Gokulam Public School,Mamom,Attingal (Passed in 2019)<br>Percentage: 84.6%</li>
+    </ul>
+  </section>
+
+   <section id="experience" class="content-section">
+    <h2>Experience & Certifications</h2>
+    <div class="project project-flex">
+      <h3>Internship</h3>
+      <p><strong>Full Stack Developer Intern</strong> –– <a href="https://kompetenzen.in/" target="_blank">Kompetenzen Technologies</a> (Jun 2025 – Present)<br>
+      Location: Thiruvananthapuram, Kerala, India (On-site)<br>
+      This internship is a course-based learning experience focused on full-stack development. Currently gaining foundational knowledge in HTML, CSS, and JavaScript, with React training just started. Also receiving introductory exposure to backend technologies like Python and MongoDB. No contributions to live projects yet as the focus is on guided training and practical exercises.</p><br>
+    </div>
+    <div class="project project-flex">
+      <h3>Certifications</h3>
+      <ul style="padding-left: 10px; padding-bottom: 10px;">
+        <li><strong>Workshop</strong> – IPCS Global (2024)<br>
+        Covered HTML, CSS, JavaScript, Python, Django, and Bootstrap in a hands-on development environment.<br>
+        <a href="https://drive.google.com/file/d/1IQWhm1401dDaioSGKRCSCIxD9V1iZHE4/view?usp=sharing" target="_blank">View Certificate</a></li>
+
+        <li><strong>Python 3.4.3 Training</strong> – IIT Bombay (2023)<br>
+        Part of the Spoken Tutorial Project aimed at foundational Python programming skills with practical demonstrations.<br>
+        <a href="https://drive.google.com/file/d/1IV1p0HbPqIh94YGCELgj66nDIf5ftijk/view?usp=sharing" target="_blank">View Certificate</a></li>
+
+        <li><strong>Web Design Internship</strong> – Sahara (2023)<br>
+        Focused on designing responsive front-end interfaces and layouts. Worked on live projects applying HTML5, CSS3, and media queries.<br>
+        <a href="https://drive.google.com/file/d/1IGVoNKf79aOaFtQj4X5YHjxFTwseYTuq/view?usp=sharing" target="_blank">View Certificate</a></li>
+
+         <li>
+        <strong>Deloitte Australia – Data Analytics Job Simulation</strong> (May 2025)<br>
+        Completed forensic data analysis tasks, Excel classification, and created Tableau dashboards.<br>
+        <a href="https://drive.google.com/file/d/1p9pq1hfrKSytJpRrG5eiCFRLvty0AVB0/view?usp=sharing" target="_blank">View Certificate</a>
+      </li>
+      <li>
+        <strong>Deloitte Australia – Technology Job Simulation</strong> (May 2025)<br>
+        Involved in proposal writing and dashboard design during a simulated tech scenario.<br>
+        <a href="https://drive.google.com/file/d/1zGAu7S73f7ywQ9m0NUppNkeDNGwrbvr-/view?usp=sharing" target="_blank">View Certificate</a>
+      </li>
+      
+      </ul>
+    </div>
+  </section>
+
+
+  <section id="academic" class="content-section">
+  <h2>Projects</h2>
+  
+  <div class="project project-flex">
+    <div class="project-image">
+      <img src="image/WhatsApp Image 2025-04-05 at 23.01.15_a1db4a40.jpg" alt="Pneumonia App Screenshot">
+    </div>
+    <div class="project-details">
+      <h3>Pneumonia Detection App</h3>
+      <p>
+        I developed a deep learning-based Pneumonia Detection Web Application designed to assist medical professionals in diagnosing pneumonia from chest X-ray images. The project uses a Convolutional Neural Network (CNN) model trained on labeled datasets to ensure high diagnostic accuracy. The frontend is built with HTML, CSS, and JavaScript, providing an intuitive interface for uploading X-ray images and displaying predictions. The backend is implemented in Flask to handle model inference securely and efficiently.
+      </p>
+      <a href="https://github.com/BobyHarilal/medical-diagnosis---pneumonia-detection" target="_blank">GitHub Repo</a> | 
+    <!--  <a href="#" target="_blank">Live Demo</a>-->
+    </div>
+  </div>
+
+  <div class="project project-flex">
+    <div class="project-image">
+      <img src="image/Screenshot 2025-08-07 163651.png" alt="Portfolio Website Screenshot">
+    </div>
+    <div class="project-details">
+      <h3>Personal Portfolio Website</h3>
+      <p>A responsive and interactive portfolio website created to highlight my skills, academic projects, and frontend design works. The site uses a dynamic JavaScript-driven interface with a collapsible hamburger menu and section-based navigation. This project reflects my growing understanding of layout design, DOM manipulation, and responsive web development as a fresher web developer.</p>
+      <a href="https://github.com/BobyHarilal/my-portfolio-website" target="_blank">GitHub Repo</a> | <a href="#" target="_blank">Live Demo</a>
+    </div>
+    </div>
+ 
+
+  <div class="project project-flex">
+    <div class="project-image">
+      <img src="image/WhatsApp Image 2025-08-07 at 01.21.27_e555fd9c.jpg" alt="Music Streaming Screenshot">
+    </div>
+    <div class="project-details">
+      <h3>Music Streaming Web App</h3>
+      <p>
+        This web-based music streaming application enables users to browse, search, and play music tracks online. The frontend leverages HTML, CSS, and JavaScript to create a clean and responsive user experience, while Python handles backend logic. The app supports user authentication, dynamic playlists, and seamless audio playback. This project enhanced my skills in full-stack development and responsive design principles.
+      </p>
+    <!-- <a href="#" target="_blank">GitHub Repo</a> | 
+      <a href="#" target="_blank">Live Demo</a>--> 
+    </div>
+  </div>
+ </section>
+
+
+  <section id="frontend" class="content-section">
+  <h2>Frontend Designs</h2>
+  
+  <div class="project project-flex">
+    <div class="project-image">
+      <img src="image/Screenshot 2025-08-07 013802.png" alt="Anime UI Screenshot">
+    </div>
+    <div class="project-details">
+      <h3>Anime Vidz UI Design</h3>
+      <p>
+        A vibrant anime-themed video streaming interface inspired by modern OTT platforms. This design includes an engaging hero section with featured anime covers, interactive hover effects, and a collapsible navigation menu. The project demonstrates skills in HTML, CSS Flexbox/Grid, and responsive design, creating a dynamic user experience for anime enthusiasts.
+      </p>
+      <a href="https://github.com/BobyHarilal/anime-vidz-frontend-design" target="_blank">GitHub Repo</a> | 
+      <a href="https://bobyharilal.github.io/anime-vidz-frontend-design/" target="_blank">Live Demo</a>
+    </div>
+  </div>
+  
+  <div class="project project-flex">
+    <div class="project-image">
+      <img src="image/Screenshot 2025-08-07 015033.png" alt="Registration Form Screenshot">
+    </div>
+    <div class="project-details">
+      <h3>Registration Form</h3>
+      <p>
+        A clean and modern registration form designed for collecting user information efficiently. The form includes fields for personal details, password input, date selection, checkboxes, and color pickers. It uses HTML and CSS to create a structured, accessible, and fully responsive layout, demonstrating form validation and user-friendly design principles.
+      </p>
+      <a href="https://github.com/BobyHarilal/registeration-form-design" target="_blank">GitHub Repo</a> | 
+      <a href="https://bobyharilal.github.io/registeration-form-design/" target="_blank">Live Demo</a>
+    </div>
+  </div>
+</section>
+
+
+   <section id="contact" class="content-section">
+    <h2>Contact Me</h2>
+    <div class="contact-info">
+      <div>
+        <p><strong>Call:</strong> 6238896147</p>
+        <p><strong>Mail:</strong> <a href="mailto:bobyharilal1020@gmail.com">bobyharilal1020@gmail.com</a></p>
+      </div>
+      <div class="social-icons">
+        <a href="https://github.com/bobyharilal" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Icon" style="width: 24px; height: 24px;"></a>
+        <a href="https://www.linkedin.com/in/boby-harilal-b33874314" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Icon" style=" width: 24px; height: 24px;"></a>
+        <a href="https://www.instagram.com/boby_harilal/?hl=en" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram Icon" style="width: 24px; height: 24px;"></a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Boby Harilal. All Rights Reserved.</p>
+  </footer>
+  
+  <script src="app.js"></script>
+</body>
+</html>
